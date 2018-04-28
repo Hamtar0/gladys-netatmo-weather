@@ -52,3 +52,10 @@ api.on('get-stationsdata', getStationsData);
 // Get Stations Data
 // See docs: https://dev.netatmo.com/doc/methods/getstationsdata
 api.getStationsData();
+
+function request() {
+    console.log('Request from Netatmo API...')
+    api.getStationsData();
+}
+
+setInterval(request, 10000);
