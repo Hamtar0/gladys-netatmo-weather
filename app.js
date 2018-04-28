@@ -1,7 +1,7 @@
 var netatmo = require('netatmo');
 var createBase = require('./lib/createBase');
 var createModule = require('./lib/createModule');
-const config = require('../config.js');
+const config = require('./config.js');
  
 var auth = {
   "client_id": config.client_id,
