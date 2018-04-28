@@ -58,4 +58,4 @@ function request() {
     api.getStationsData();
 }
 
-setInterval(request, 10000);
+setInterval(request, 300000);
