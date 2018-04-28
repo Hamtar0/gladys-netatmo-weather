@@ -1,0 +1,17 @@
+{
+  "name": "gladys-test",
+  "version": "0.1.0",
+  "description": "Gladys Module Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Guillot",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "emoji-strip": "^1.0.1",
+    "netatmo": "^2.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
